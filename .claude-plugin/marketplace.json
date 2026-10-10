@@ -1,0 +1,14 @@
+{
+  "name": "svatlas",
+  "owner": {
+    "name": "Phoenix Horizon, Inc."
+  },
+  "description": "Search AI startups and founders, find the companies most likely to buy a product, and keep outreach lists, from the sourced Silicon Valley Atlas directory.",
+  "plugins": [
+    {
+      "name": "svatlas",
+      "source": "./",
+      "description": "Search AI startups and founders, find the companies most likely to buy a product, and keep outreach lists, from the sourced Silicon Valley Atlas directory."
+    }
+  ]
+}

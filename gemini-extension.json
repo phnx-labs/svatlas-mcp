@@ -1,0 +1,11 @@
+{
+  "name": "svatlas",
+  "version": "1.3.0",
+  "description": "Search AI startups and founders, find the companies most likely to buy a product, and keep outreach lists, from the sourced Silicon Valley Atlas directory.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "svatlas": {
+      "httpUrl": "https://svatlas.io/mcp"
+    }
+  }
+}
