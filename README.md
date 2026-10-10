@@ -9,6 +9,9 @@ are not metered. List changes affect the signed-in account.
 
 The same steps as a web page: [svatlas.io/agents](https://svatlas.io/agents).
 
+For the three skills alone in any agent that reads Agent Skills, run
+`npx skills add phnx-labs/svatlas-mcp`, then connect the MCP server below.
+
 ## Claude Code
 
 ```sh
@@ -164,7 +167,7 @@ It contains no credentials.
 ## About this repository
 
 These manifests and skills are generated from Atlas's plugin source, version
-1.3.0. The service itself runs at https://svatlas.io; this repository holds no
+1.3.1. The service itself runs at https://svatlas.io; this repository holds no
 application code.
 
 Requires a Google account to sign in to Atlas. Search and product matching
