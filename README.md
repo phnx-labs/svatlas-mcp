@@ -9,9 +9,6 @@ are not metered. List changes affect the signed-in account.
 
 The same steps as a web page: [svatlas.io/agents](https://svatlas.io/agents).
 
-For the three skills alone in any agent that reads Agent Skills, run
-`npx skills add phnx-labs/svatlas-mcp`, then connect the MCP server below.
-
 ## Claude Code
 
 ```sh
@@ -154,6 +151,23 @@ The [plugin ZIP](https://svatlas.io/plugins/svatlas.zip) contains the portable
 Agent Plugins manifest plus a Codex compatibility manifest and the three skills.
 It contains no credentials.
 
+## Any MCP client
+
+Add Atlas as a remote MCP server (Streamable HTTP) at this URL. The client
+finds the sign-in on its own, so there is nothing else to paste.
+
+```text
+https://svatlas.io/mcp
+```
+
+To add the three skills to any agent that reads Agent Skills:
+
+```sh
+npx skills add phnx-labs/svatlas-mcp
+```
+
+Building a client? [auth.md](https://svatlas.io/auth.md) lists the OAuth steps.
+
 ## Install from this repository
 
 - Claude Code: `claude plugin marketplace add phnx-labs/svatlas-mcp`, then
@@ -167,7 +181,7 @@ It contains no credentials.
 ## About this repository
 
 These manifests and skills are generated from Atlas's plugin source, version
-1.3.1. The service itself runs at https://svatlas.io; this repository holds no
+1.3.2. The service itself runs at https://svatlas.io; this repository holds no
 application code.
 
 Requires a Google account to sign in to Atlas. Search and product matching
